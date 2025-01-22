@@ -828,7 +828,8 @@ namespace
                             nullptr,
                             nullptr,
                             bInheritHandles,
-                            dwPriority | CREATE_UNICODE_ENVIRONMENT | EXTENDED_STARTUPINFO_PRESENT | dwCreationFlags,
+                            dwPriority | CREATE_UNICODE_ENVIRONMENT | EXTENDED_STARTUPINFO_PRESENT |
+                                dwCreationFlags,
                             call_environment,
                             working_directory_arg,
                             &startup_info.StartupInfo,
